@@ -1,0 +1,40 @@
+{
+  "name": "agentfund-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for AgentFund - Crowdfunding platform for AI agents on Base chain",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "agentfund-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "ai-agents",
+    "crowdfunding",
+    "escrow",
+    "base",
+    "ethereum",
+    "web3"
+  ],
+  "author": "RioBot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Riobot-Grind/agentfund-mcp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "ethers": "^6.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.30",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
