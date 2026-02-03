@@ -1,0 +1,20 @@
+# Build artifacts and dependencies (auto-added by Arkforge)
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+*.pyc
+.venv/
+venv/
+target/
+*.class
+.gradle/
+vendor/
+.idea/
+.vscode/
+*.log
+.DS_Store
+coverage/
+.coverage
+*.egg-info/

@@ -1,0 +1,21 @@
+
+> agentfund-mcp@1.0.0 test
+> vitest run
+
+
+ RUN  v1.6.1 /workspace/repo
+
+stderr | tests/agent-integration.test.ts > AgentFund Integration Tests > agentfund_get_project > should return valid project data if projects exist
+Skipping test due to rate limiting
+
+ ✓ tests/agent-integration.test.ts  (22 tests) 1178ms
+stderr | tests/basic.test.ts > AgentFund MCP > should read project count from contract
+Test skipped due to RPC rate limiting
+
+ ✓ tests/basic.test.ts  (3 tests) 400ms
+
+ Test Files  2 passed (2)
+      Tests  25 passed (25)
+   Start at  15:03:44
+   Duration  2.51s (transform 98ms, setup 0ms, collect 284ms, tests 1.58s, environment 1ms, prepare 210ms)
+
